@@ -1,0 +1,64 @@
+/*---------------------------------------------------| 
+|                 Light Theme CSS                    |
+|---------------------------------------------------*/
+
+[data-bs-theme="light"] .app-header-separator {
+    background-color: #f9f9f9 !important;
+    border: none !important;
+}
+
+[data-bs-theme="light"] .app-content {
+    background-color: #f9f9f9 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+
+/*---------------------------------------------------| 
+|                 Dark Theme CSS                     |
+|---------------------------------------------------*/
+
+[data-bs-theme="dark"] .app-header {
+    background-color: #0F1014;
+}
+
+[data-bs-theme="dark"] .app-header-separator {
+    /* background-color: #f9f9f9 !important; */
+    border: none !important;
+}
+
+[data-bs-theme="dark"] .app-sidebar {
+    background-color: #0F1014 !important;
+    box-shadow: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+[data-bs-theme="dark"] .app-content {
+    /* background-color: #f9f9f9 !important; */
+    border: none !important;
+    box-shadow: none !important;
+}
+
+[data-bs-theme="dark"].app-footer {
+    background-color: #0F1014 !important;
+    border-top: none;
+}
+
+[data-bs-theme="dark"] .card {
+    border: none !important;
+    box-shadow: none !important;
+    /* background-color: #0F1014 !important; */
+}
+
+
+/*---------------------------------------------------| 
+|          Both Light and Dark Theme CSS             |
+|---------------------------------------------------*/
+
+.card {
+    box-shadow: none !important;
+}
+
+
